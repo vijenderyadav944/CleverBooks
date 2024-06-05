@@ -1,13 +1,3 @@
-// const carousel = document.getElementById('carousel');
-// const stopScroll = () => {
-//   carousel.style.animationPlayState = 'paused';
-// }
-
-// const startScroll = () => {
-//   carousel.style.animationPlayState = 'running';
-// }
-
-
 document.addEventListener("scroll", () => {
   const image = document.getElementById("founders-image");
   const rect = image.getBoundingClientRect();
